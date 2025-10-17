@@ -20,13 +20,13 @@ const schools = [
     findus: "https://maps.app.goo.gl/k4cgpw3WgsHKErjK9"
   },
   {
-    name: "ZYX Public School",
+    name: "abkjsbd Public School",
     district: "Rewari",
     vacancies: "TGT Hindi",
     location: "Ward No. 3, Near hamunam mandir, Rewari",
     contact: "9877864210",
     whatsapp: "9876738210",
-    email: "ZYX@gmail.com",
+    email: "ksdjhciu@gmail.com",
     findus: "https://maps.app.goo.gl/WP34eRL6bfmeSvct7"
   }
 
