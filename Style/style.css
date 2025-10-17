@@ -1,0 +1,31 @@
+body{
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h1,h2,h3,footer {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 33.33%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold; 
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+

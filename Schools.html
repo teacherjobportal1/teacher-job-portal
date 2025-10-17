@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Job Portal</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/Stylehome.css">
+</head>
+
+<body>
+    <h2>Schools</h2>
+
+    <table>
+        <tr>
+            <td>
+                <h2><a href="index.html" class="href">Home</a></h2>
+            </td>
+            <td>
+                <h2><a href="Schools.html" class="href">School</a></h2>
+            </td>
+            <td>
+                <h2><a href="Vacancies.html" class="href">Vacancies</a></h2>
+            </td>
+        </tr>
+    </table>
+
+    <h3>
+        <label for="schoolName">Search by School name or District :</label>
+        <input type="text" name="schoolName" id="schoolName" placeholder="Enter Name">
+    </h3>
+
+    <table id="schoolTable"></table>
+
+    <script src="JS/data.js"></script>
+    <script src="JS/ScriptSchools.js"></script>
+</body>
+
+</html>
