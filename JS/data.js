@@ -19,15 +19,16 @@ const schools = [
     email: "XYZ@gmail.com",
     findus: "https://maps.app.goo.gl/k4cgpw3WgsHKErjK9"
   },
-  {
-    name: "abkjsbd Public School",
-    district: "Rewari",
-    vacancies: "TGT Hindi",
-    location: "Ward No. 3, Near hamunam mandir, Rewari",
-    contact: "9877864210",
-    whatsapp: "9876738210",
-    email: "ksdjhciu@gmail.com",
-    findus: "https://maps.app.goo.gl/WP34eRL6bfmeSvct7"
-  }
+    {
+    name: "kjfkjdabkv Public School",
+    district: "Mahendergarh",
+    vacancies: "No Vacancies",
+    location: "Ward No. 5, safdv, Mahendergarh",
+    contact: "9876543210",
+    whatsapp: "9876543210",
+    email: "ASSDDSGse@gmail.com",
+    findus: "https://maps.app.goo.gl/k4cgpw3WgsHKErjK9"
+  },
+
 
 ];
