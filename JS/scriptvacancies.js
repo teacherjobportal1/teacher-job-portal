@@ -43,7 +43,7 @@ for (const [district, districtSchools] of Object.entries(groupedByDistrict)) {
   // Add school rows
   districtSchools.forEach(school => {
     const row = document.createElement("tr");
-    const schoolLink = `<a href="Schoolbio.html?name=${encodeURIComponent(school.name)}">${school.name}</a>`;
+    const schoolLink = `<a href="bio.html?name=${encodeURIComponent(school.name)}">${school.name}</a>`;
     row.innerHTML = `
       <td>${schoolLink}</td>
       <td>${school.vacancies}</td>
