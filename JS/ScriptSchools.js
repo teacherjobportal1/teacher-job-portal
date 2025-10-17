@@ -98,7 +98,7 @@ function showSchools(filter = "") {
         const cell1 = document.createElement("td");
         const link1 = document.createElement("a");
         link1.textContent = `${filtered[i].name} (${filtered[i].district})`;
-        link1.href = `schoolbio.html?name=${encodeURIComponent(filtered[i].name)}`;
+        link1.href = `Schoolbio.html?name=${encodeURIComponent(filtered[i].name)}`;
         link1.style.textDecoration = "none";
         link1.style.color = "blue";
         cell1.appendChild(link1);
