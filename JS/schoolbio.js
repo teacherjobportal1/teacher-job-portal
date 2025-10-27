@@ -18,14 +18,26 @@ if (school) {
     document.querySelector("#email").textContent = "Email-ID: " + school.email;
 
       // ✅ Add clickable Google Maps link
-  const findUsElement = document.querySelector("#findus");
-  if (findUsElement && school.findus) {
-    const link = document.createElement("a");
-    link.href = school.findus;
-    link.target = "_blank";
-    link.textContent = "View on Google Maps";
-    findUsElement.appendChild(link);
+  const findUsElement1 = document.querySelector("#findus");
+  if (findUsElement1 && school.findus) {
+    const link1 = document.createElement("a");
+    link1.href = school.findus;
+    link1.target = "_blank";
+    link1.textContent = "Click to view on Google Maps";
+    findUsElement1.appendChild(link1);
   }
+
+    const findUsElement2 = document.querySelector("#website");
+  if (findUsElement2 && school.website) {
+    const link2 = document.createElement("a");
+    link2.href = school.website;
+    link2.target = "_blank";
+    link2.textContent = "Click to view on browser";
+    findUsElement2.appendChild(link2);
+  }
+
+
 } else {
     document.querySelector("h1").textContent = "School not found";
 }
+
